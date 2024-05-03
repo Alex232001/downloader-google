@@ -9,4 +9,4 @@ filename=$(echo "$URL" | grep -o '[^/]*$');
 echo "$filename";
 
 path_to_torrent=$(echo '/content/$URL');
-echo $path_to_torrent
+echo $path_to_torrent;
