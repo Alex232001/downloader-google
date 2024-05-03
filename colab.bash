@@ -8,5 +8,5 @@ echo "Raw не обновляется";
 filename=$(echo "$URL" | grep -o '[^/]*$');
 echo "$filename";
 
-path_to_torrent=$(echo '/content/$URL');
+path_to_torrent=/content/$URL;
 echo $path_to_torrent;
